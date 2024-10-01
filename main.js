@@ -13,9 +13,7 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
-
-// Sélectionne les éléments
-// Sélectionne les éléments
+/*
 const video = document.getElementById('intro-video');
 const skipButton = document.getElementById('skip-button');
 const introContainer = document.getElementById('intro-container');
@@ -31,7 +29,7 @@ function hideIntro() {
 }
 
 // Masque l'intro après 5 secondes
-setTimeout(hideIntro, 5000);
+setTimeout(hideIntro, 3000);
 
 // Permet de sauter l'intro en cliquant sur le bouton
-skipButton.addEventListener('click', hideIntro);
+skipButton.addEventListener('click', hideIntro);*/

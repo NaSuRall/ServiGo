@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*
 body, html {
     margin: 0;
     padding: 0;
@@ -16,19 +17,19 @@ body, html {
     padding: 50px;
 }
 
-/* Styles pour la vidéo d'intro en superposition */
+/* Styles pour la vidéo d'intro en superposition 
 #intro-container {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: white; /* Fond blanc pendant que la vidéo se joue */
+    background-color: white; /* Fond blanc pendant que la vidéo se joue 
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1000; /* Assure que la vidéo est au-dessus de tout */
-    transition: opacity 1s ease; /* Animation de disparition */
+    z-index: 1000; /* Assure que la vidéo est au-dessus de tout 
+    transition: opacity 1s ease; /* Animation de disparition 
 }
 
 #intro-video {
@@ -36,7 +37,7 @@ body, html {
     height: auto;
     object-fit: cover;
 }
-
+*/
 
 
 

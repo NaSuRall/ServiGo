@@ -15,10 +15,15 @@ body, html {
     text-align: center;
     padding: 50px;
 }
+
+/* Styles pour la vidéo d'intro en superposition */
 #intro-container {
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
+    background-color: white; /* Fond blanc pendant que la vidéo se joue */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,10 +32,11 @@ body, html {
 }
 
 #intro-video {
-    width: 100%;
+    width: 80%;
     height: auto;
     object-fit: cover;
 }
+
 
 
 

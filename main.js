@@ -31,7 +31,7 @@ function hideIntro() {
 }
 
 // Masque l'intro après 5 secondes
-setTimeout(hideIntro, 3000);
+setTimeout(hideIntro, 5000);
 
 // Permet de sauter l'intro en cliquant sur le bouton
 skipButton.addEventListener('click', hideIntro);
